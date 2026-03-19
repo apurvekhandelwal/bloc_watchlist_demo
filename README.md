@@ -19,6 +19,9 @@ A Flutter application demonstrating a reorderable stock watchlist using Cubit (B
 - screens/ → UI screens
 - widgets/ → reusable components
 
+## Preview
+![App Screenshot](assets/screenshot/screenshot.PNG)
+
 ## Notes
 The implementation focuses on clean architecture, readability, and avoiding over-engineering while maintaining scalability.
 
