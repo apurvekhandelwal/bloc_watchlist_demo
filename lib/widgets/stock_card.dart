@@ -21,10 +21,14 @@ class StockCard extends StatelessWidget {
             children: [
               ?leading,
               const SizedBox(width: 6),
-              CircleAvatar(
-                radius: 16,
-                backgroundColor: Colors.grey.shade200,
-                backgroundImage: AssetImage(stock.imageUrl),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  stock.imageUrl,
+                  width: 32,
+                  height: 32,
+                  fit: BoxFit.contain,
+                ),
               ),
             ],
           ),
